@@ -12,6 +12,6 @@ public class Hooks {
 		sd.add_place_payload("Gat", "Spanish", "Europe");
 		sd.user_calls_with_http_request("AddPlaceAPI", "POST");
 		sd.verify_place_id_created_is_mapped_to_using("Gat", "GetPlaceAPI");
-		}
+	  }
 	}
 }

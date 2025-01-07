@@ -36,7 +36,7 @@ public class StepDefinations extends Utils{
 			response = res.when().post(resourceAPI.getResource());
 		}else if(method.equalsIgnoreCase("GET")){
 			response = res.when().get(resourceAPI.getResource());
-		}
+	  }
 	}
 	@Then("the API call got success with status code {int}")
 	public void the_api_call_got_success_with_status_code(Integer int1) {
